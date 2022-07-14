@@ -24,4 +24,14 @@ class TriangleTest {
         String result = Triangle.triangleClassification(a,b,c);
         assertEquals(expected,result);
     }
+    @Test
+    @DisplayName("case 3-4-5")
+    public void testa3b4c5(){
+        int a=3;
+        int b=4;
+        int c=5;
+        String expected= "Tam giác thường";
+        String result = Triangle.triangleClassification(a,b,c);
+        assertEquals(expected,result);
+    }
 }

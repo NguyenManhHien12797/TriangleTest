@@ -9,6 +9,8 @@ public class Triangle {
            }else {
                if(a==b||a==c|| b==c){
                    result= "Tam giác cân";
+               }else {
+                   result="Tam giác thường";
                }
            }
        }
