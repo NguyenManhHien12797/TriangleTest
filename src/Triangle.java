@@ -6,6 +6,10 @@ public class Triangle {
        }else {
            if(a==b&& a==c){
                result= "Tam giác đều";
+           }else {
+               if(a==b||a==c|| b==c){
+                   result= "Tam giác cân";
+               }
            }
        }
        return result;
